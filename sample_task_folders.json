@@ -1,0 +1,318 @@
+
+{
+    "@odata.context": "https://graph.microsoft.com/beta/$metadata#users('siva.bala.89%40hotmail.com')/outlook/taskFolders('AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA%3D')/tasks",
+    "@odata.nextLink": "https://graph.microsoft.com/beta/me/outlook/taskFolders/AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=/tasks?$skip=10",
+    "value": [
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QACqnhv9g==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKp4f8xAAAA",
+            "createdDateTime": "2019-09-09T14:44:39.6123495Z",
+            "lastModifiedDateTime": "2019-09-09T15:34:13.2668754Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QACqnhv9g==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": false,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "completed",
+            "subject": "Ping Prateek",
+            "dueDateTime": null,
+            "recurrence": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": ""
+            },
+            "completedDateTime": {
+                "dateTime": "2019-09-09T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "reminderDateTime": {
+                "dateTime": "2019-09-09T15:30:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QACqU7Ntg==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKotmzVAAAA",
+            "createdDateTime": "2019-09-06T16:55:34.9489563Z",
+            "lastModifiedDateTime": "2019-09-07T03:27:27.6340522Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QACqU7Ntg==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": false,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "completed",
+            "subject": "Release",
+            "dueDateTime": null,
+            "recurrence": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": ""
+            },
+            "completedDateTime": {
+                "dateTime": "2019-09-07T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "reminderDateTime": {
+                "dateTime": "2019-09-07T02:30:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QACpedTyQ==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKlTmpsAAAA",
+            "createdDateTime": "2019-09-01T22:59:46.5947709Z",
+            "lastModifiedDateTime": "2019-09-01T22:59:47.9399956Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QACpedTyQ==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": true,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "notStarted",
+            "subject": "Tweet from Daniel Stenberg (@bagder)",
+            "completedDateTime": null,
+            "dueDateTime": null,
+            "recurrence": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": "Daniel Stenberg (@bagder) Tweeted:\n\"HTTP/3 in curl\" https://t.co/vvWo1sLFfS first goes through what HTTP/3 is and then dives into how to use it and test it with curl. https://twitter.com/bagder/status/1168276219185553408?s=17"
+            },
+            "reminderDateTime": {
+                "dateTime": "2019-09-02T02:30:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QACo6kILA==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKjD2gLAAAA",
+            "createdDateTime": "2019-08-29T01:10:49.0150505Z",
+            "lastModifiedDateTime": "2019-08-29T05:47:29.6116876Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QACo6kILA==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": false,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "completed",
+            "subject": "Door lock",
+            "dueDateTime": null,
+            "recurrence": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": ""
+            },
+            "completedDateTime": {
+                "dateTime": "2019-08-29T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "reminderDateTime": {
+                "dateTime": "2019-08-29T03:00:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QACoVB3ww==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKgtN0KAAAA",
+            "createdDateTime": "2019-08-24T20:47:24.420072Z",
+            "lastModifiedDateTime": "2019-08-24T20:47:24.5110197Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QACoVB3ww==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": false,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "notStarted",
+            "subject": "Read books related to programming",
+            "completedDateTime": null,
+            "dueDateTime": null,
+            "recurrence": null,
+            "reminderDateTime": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": ""
+            }
+        },
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QACpeeuew==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKgtN0JAAAA",
+            "createdDateTime": "2019-08-24T19:00:14.7725247Z",
+            "lastModifiedDateTime": "2019-09-04T09:26:11.8631772Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QACpeeuew==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": false,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "completed",
+            "subject": "Call Santy",
+            "dueDateTime": null,
+            "recurrence": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": ""
+            },
+            "completedDateTime": {
+                "dateTime": "2019-09-04T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "reminderDateTime": {
+                "dateTime": "2019-09-01T03:30:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QACpeeufw==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKfah_xAAAA",
+            "createdDateTime": "2019-08-22T16:02:06.9786554Z",
+            "lastModifiedDateTime": "2019-09-04T09:26:28.0079215Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QACpeeufw==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": false,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "completed",
+            "subject": "Remind me to update the address",
+            "dueDateTime": null,
+            "recurrence": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": ""
+            },
+            "completedDateTime": {
+                "dateTime": "2019-09-04T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "reminderDateTime": {
+                "dateTime": "2019-09-01T03:30:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QACnthdoA==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKUpgewAAAA",
+            "createdDateTime": "2019-08-11T19:21:51.4378888Z",
+            "lastModifiedDateTime": "2019-08-19T15:15:10.4802825Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QACnthdoA==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": true,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "notStarted",
+            "subject": "Start Address corrections",
+            "completedDateTime": null,
+            "recurrence": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": ""
+            },
+            "dueDateTime": {
+                "dateTime": "2019-08-18T18:30:00.0000000",
+                "timeZone": "UTC"
+            },
+            "reminderDateTime": {
+                "dateTime": "2019-08-12T03:30:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QAClUONjg==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKUpgevAAAA",
+            "createdDateTime": "2019-08-11T19:21:42.2561472Z",
+            "lastModifiedDateTime": "2019-08-11T19:22:26.6507328Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QAClUONjg==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": true,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "notStarted",
+            "subject": "Get temper glass for mobile",
+            "completedDateTime": null,
+            "dueDateTime": null,
+            "recurrence": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": ""
+            },
+            "reminderDateTime": {
+                "dateTime": "2019-08-12T03:30:00.0000000",
+                "timeZone": "UTC"
+            }
+        },
+        {
+            "@odata.etag": "W/\"96vfp0FQbECmQyUyfjFp7QAClUKjUQ==\"",
+            "id": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAEYAAAO7TButbej9QoS8QdzUxj6hBwD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAD3q9_nQVBsQKZDJTJ_MWntAAKIU-vHAAAA",
+            "createdDateTime": "2019-07-17T13:20:50.5957959Z",
+            "lastModifiedDateTime": "2019-08-05T17:01:32.7086323Z",
+            "changeKey": "96vfp0FQbECmQyUyfjFp7QAClUKjUQ==",
+            "categories": [],
+            "assignedTo": "",
+            "hasAttachments": false,
+            "importance": "normal",
+            "isReminderOn": false,
+            "owner": "Bala R",
+            "parentFolderId": "AQMkADAwATZiZmYAZC1iZWJiAC0yMTEANS0wMAItMDAKAC4AAAO7TButbej9QoS8QdzUxj6hAQD3q9_nQVBsQKZDJTJ_MWntAAACARIAAAA=",
+            "sensitivity": "normal",
+            "status": "completed",
+            "subject": "File Tax Returns",
+            "recurrence": null,
+            "startDateTime": null,
+            "body": {
+                "contentType": "text",
+                "content": ""
+            },
+            "completedDateTime": {
+                "dateTime": "2019-08-05T00:00:00.0000000",
+                "timeZone": "UTC"
+            },
+            "dueDateTime": {
+                "dateTime": "2019-08-04T18:30:00.0000000",
+                "timeZone": "UTC"
+            },
+            "reminderDateTime": {
+                "dateTime": "2019-08-05T15:30:00.0000000",
+                "timeZone": "UTC"
+            }
+        }
+    ]
+}
