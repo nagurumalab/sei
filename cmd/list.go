@@ -16,7 +16,7 @@ limitations under the License.
 package cmd
 
 import (
-	"github.com/nagurumalab/learning-go/pani/mstodo"
+	"github.com/nagurumalab/sei/mstodo"
 
 	"github.com/spf13/cobra"
 )

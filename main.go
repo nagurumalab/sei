@@ -15,7 +15,7 @@ limitations under the License.
 */
 package main
 
-import "github.com/nagurumalab/learning-go/pani/cmd"
+import "github.com/nagurumalab/sei/cmd"
 
 func main() {
 	cmd.Execute()
