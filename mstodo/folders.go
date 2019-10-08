@@ -95,6 +95,6 @@ func (f Folders) GetFolderFromName(namePattern string) *Folder {
 }
 
 //GetTasks gets tasks under Folder f
-func (f Folder) GetTasks(client *http.Client) *Tasks {
-	return ListTasks(client, f.ID, true)
+func (f Folder) GetTasks(client *http.Client, hideCompleted bool, limit int) []Task {
+	return ListTasks(client, f.ID, hideCompleted, limit)
 }

@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"strconv"
 )
 
 //Task struct
@@ -29,48 +30,53 @@ type Task struct {
 }
 
 //Tasks list of tasks
-type Tasks struct {
+type _task struct {
 	Value    []Task `json:"value"`
 	NextLink string `json:"@odata.nextLink"`
 }
 
 //ListTasks lists all tasks
-func ListTasks(client *http.Client, folderID string, hideCompleted bool) *Tasks {
-	t := new(Tasks)
+func ListTasks(client *http.Client, folderID string, hideCompleted bool, limit int) []Task {
+	t := new(_task)
+	var reqURL string
 	var resp *http.Response
 	var err error
+	params := map[string]string{}
+
 	filter := ""
 	if hideCompleted {
 		filter += " status eq 'notStarted' "
 	}
-	params := map[string]string{}
 	if filter != "" {
 		params["$filter"] = filter
 	}
+	params["$top"] = strconv.Itoa(limit)
+
 	if folderID != "" {
-		reqURL := constructURL([]string{"taskFolders", folderID, "tasks"}, params)
-		//log.Printf("Requesting url - %s", reqURL)
-		resp, err = client.Get(reqURL)
-		if err != nil {
-			panic(err)
-		}
+		reqURL = constructURL([]string{"taskFolders", folderID, "tasks"}, params)
+	} else {
+		reqURL = constructURL([]string{"tasks"}, params)
+	}
+	resp, err = client.Get(reqURL)
+	if err != nil {
+		panic(err)
 	}
 	defer resp.Body.Close()
 	err = json.NewDecoder(resp.Body).Decode(t)
 	if err != nil {
 		panic(err)
 	}
-	return t
+	return t.Value
 }
 
-//Print prints the folders struct to console
-func (t Tasks) Print(detailed bool) {
+//PrintTasks prints the folders struct to console
+func PrintTasks(tasks []Task, detailed bool) {
 	var err error
-	for i, task := range t.Value {
+	for i, task := range tasks {
 		//TODO: Work on better detailed format
 		if detailed {
-			_, err = fmt.Printf("%d - %s\n\tID: %s\n\tBody: %s\n",
-				i+1, task.Subject, task.ID, task.Body)
+			_, err = fmt.Printf("%d - %s\n\tID: %s\n\tFolder: %s\n\tCreated: %s\n\tBody: %s\n\n",
+				i+1, task.Subject, task.ID, task.ParentFolderID, task.CreatedDateTime, task.Body.Content)
 		} else {
 			_, err = fmt.Printf("%d - %s\n", i+1, task.Subject)
 		}
